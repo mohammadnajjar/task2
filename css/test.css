@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(210, 210, 210, 0.87);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+   
+}
+/* cards */
+.cards
+{
+    overflow: hidden;
+    margin-top: 40px;
+}
+.cards .card{
+    float: left;
+    width: 29%;
+    background-color: #fff;
+    margin: 1%;
+    padding: 1%;
+}
+
+.cards .card .image{
+   
+}
+.cards .card .image img{
+   width: 90px;
+   padding: 10px;
+   border-radius: 50% ;
+   border: #191 double 1px;
+
+}
+}
+img{
+  
+   width: 70;
+   height: 70px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);  
+   
+}

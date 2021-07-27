@@ -1,0 +1,67 @@
+/* #39b6cc */ 
+body{
+    width: 100%;
+}
+.aqua{color: #39b6cc;}
+
+header{
+    text-align: center;
+}
+header .title h1{
+    font-size: 50px;
+    word-spacing: 7px;
+    margin-bottom: 0px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+header .title h1 .aqua{
+    color: #39b6cc;
+    margin: 0 -15px;
+    font-weight: 900;
+}
+header .para p{
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Cards */ 
+ .cards{
+    width: 100%;
+    background-color: #eee;
+    overflow: hidden;
+}
+.cards .container{
+    margin: auto;
+    overflow: hidden;
+
+
+}
+.cards .card{
+    background-color: #fff;
+    float:left;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 30px 60px 30px;
+    border: 2px solid orange;
+    width: 27%;
+  
+}
+.cards .card img {
+    width: 100px;
+    height: 100px;
+}
+.cards .card h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+.cards .card p{
+    text-align: center;
+    font-size: 17px;
+    line-height:1.8;
+    color: rgb(88, 88, 88);
+    margin-bottom: 0;
+
+}
